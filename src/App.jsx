@@ -7,6 +7,7 @@ import "./styles/Pages.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import AdmissionsPage from "./pages/AdmissionsPage";
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 
 function App () {
   return(
@@ -22,6 +23,7 @@ function App () {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/admissions" element={<AdmissionsPage />} />
           </Routes>
+          <ChatbotComponent/>
         </div>
         <Footer/>
       </div>
