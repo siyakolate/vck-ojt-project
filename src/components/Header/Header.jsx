@@ -44,11 +44,10 @@ function Header() {
         <span className="hamburger-icon"></span>
       </button>
       {/* Mobile Drawer Navigation */}
-      <nav className={'drawer-nav ${isDrawerOpen ? "open" : ""}'}>
+      <nav className={`drawer-nav ${isDrawerOpen ? "open" : ""}`}>
         <button className="close-drawer-btn" onClick={toggleDrawer}>
           ✕
         </button>
-        
         <Link to="/" className="nav-item" onClick={closeDrawer}>
           Home
         </Link>
@@ -77,4 +76,4 @@ function Header() {
   );
   
 }
-export default Header;
+export default Header;

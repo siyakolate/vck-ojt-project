@@ -1,4 +1,15 @@
 /* src/pages/pages.css  */
+.main-container {
+  background-color: #39c4c4;
+   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 25px;
+  padding-left: 130px;
+  padding-right: 130px;
+  /* Light grey background for the main container */
+}
 .page-container {
   max-width: 960px;
   /* Max width for content to prevent it from stretching too wide */
@@ -6,22 +17,12 @@
   margin: 20px auto;
   /* Center the content with some top/bottom margin */
   padding: 20px;
-  background-color: white;
+  background-color: #FFFFFF;
   /* White background for page content */
   border-radius: 8px;
   /* Slightly rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   /* Subtle shadow */
-}
-.main-container{
- background-color: aqua;
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 25px;
-  padding-left: 130px;
-  padding-right: 130px;
 }
 
 .page-container h1 {
@@ -247,6 +248,8 @@
   border-bottom-right-radius: 8px;
 }
 
+/* Adjustments for the new course details table  */
+
 
 /* CSS Animation Definitions */
 /* Keyframes for Fade In Up animation */
@@ -280,9 +283,7 @@
     /* Slightly less margin on smaller screens */
     padding: 15px;
     /* Slightly less padding */
-
   }
-
 
   /* Home Page - Hero Section */
   .hero-section {
@@ -324,11 +325,11 @@
   /* white-space: nowrap; Prevent content from wrapping inside cells */
   /* -webkit-overflow-scrolling: touch; For smooth scrolling on iOS */
   /* } */
-  */ .admission-table thead,
-  .admission-table tbody,
-  .admission-table th,
-  .admission-table td,
-  .admission-table tr {
+  */ .admissions-table thead,
+  .admissions-table tbody,
+  .admissions-table th,
+  .admissions-table td,
+  .admissions-table tr {
     display: block;
     /* Make table elements stack */
     width: auto;
@@ -349,6 +350,6 @@
   }
 
   .hero-overlay-text p {
-    font-size: 0.9em;
-}
+    font-size: 0.9em;
+  }
 }

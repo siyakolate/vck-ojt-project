@@ -187,15 +187,12 @@
     display: block;
     /* Show hamburger on mobile */
   }
-
+}
   .main-header {
     justify-content: space-between;
     /* Ensure name and hamburger are spaced */
   }
-
-  .college-name {
+ .college-name {
     font-size: 1.5em;
     /* Adjust college name size on mobile */
-
-  }
-} 
+}
